@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "LinkedInMessageReplyByAI",
+    "version": "0.1.0",
+    "permissions": ["activeTab", "scripting"],
+    "content_scripts": [
+      {
+        "matches": ["https://www.linkedin.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
